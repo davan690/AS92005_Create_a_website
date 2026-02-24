@@ -1,0 +1,26 @@
+---
+title: "Evaluation Guide"
+---
+
+## Evaluate against fitness for purpose
+
+Address these prompts:
+
+- Who is the intended audience?
+- How does the website meet their needs?
+- Which design choices were most effective?
+- Which features did not work as well as expected?
+
+## Evaluate your development process
+
+- What testing methods did you use? (self-test, peer test, checklist)
+- What specific feedback changed your outcome?
+- What evidence shows iteration over time?
+
+## Example reflective paragraph starter
+
+> My website was designed for Year 11 students learning about environmental trends. I used a simple navigation layout and short sections so users could quickly compare rainfall, PM2.5, and river nitrate results. Peer testing showed my first graph labels were unclear, so I updated axis titles, improved contrast, and added short interpretations under each graph. This improved usability because users could understand the data patterns without teacher help.
+
+## A/M/E evidence reminder
+
+Use the **A/M/E Evidence** page to model how you write your final evidence statements.

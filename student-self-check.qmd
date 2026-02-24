@@ -1,0 +1,103 @@
+---
+title: "Student Self-Assessment Checklist"
+---
+
+Use this page before final submission to check your work against Achieved, Merit, and Excellence expectations.
+
+## How to use
+
+- Tick the statements you can prove with evidence.
+- If you cannot prove it, improve your site or documentation.
+- Use this together with your development log, testing notes, and evaluation.
+
+## 1) Purpose and audience
+
+### Achieved
+
+- [ ] My website has a clear purpose.
+- [ ] I can name my intended audience.
+- [ ] My pages match the topic and purpose.
+
+### Merit
+
+- [ ] My content and layout are clearly designed for my audience.
+- [ ] My headings, labels, and explanations help users understand quickly.
+
+### Excellence
+
+- [ ] I can justify specific design decisions using audience needs.
+- [ ] My site communication is refined and consistently effective.
+
+## 2) Technical quality
+
+### Achieved
+
+- [ ] My navigation works across all pages.
+- [ ] All required pages render correctly.
+- [ ] My site has no major broken elements.
+
+### Merit
+
+- [ ] My site is consistent across pages (layout, style, readability).
+- [ ] My charts/tables are clear and labelled well.
+
+### Excellence
+
+- [ ] My site is polished and robust, with strong usability throughout.
+
+## 3) Environmental data and R integration
+
+### Achieved
+
+- [ ] I loaded an environmental dataset in R.
+- [ ] I produced at least one valid chart/table/value in my Quarto site.
+
+### Merit
+
+- [ ] My data output supports the key points I am making.
+- [ ] I explain what the chart/table shows in plain language.
+
+### Excellence
+
+- [ ] I use data strategically to communicate clear insights.
+- [ ] I justify why my data presentation choices are effective.
+
+## 4) Development process and testing
+
+### Achieved
+
+- [ ] I documented my process over time.
+- [ ] I tested my site and made at least one improvement.
+
+### Merit
+
+- [ ] I used peer or user feedback to make multiple improvements.
+- [ ] I can show before/after evidence for key changes.
+
+### Excellence
+
+- [ ] My iteration is systematic and evidence-led.
+- [ ] I can explain why each major change improved fitness for purpose.
+
+## 5) Evaluation quality
+
+### Achieved
+
+- [ ] I describe strengths and limitations of my final outcome.
+
+### Merit
+
+- [ ] I explain my choices with specific evidence from testing and data work.
+
+### Excellence
+
+- [ ] I critically evaluate limitations and propose realistic, high-value next steps.
+
+## Final pre-submission check
+
+- [ ] Live site link works.
+- [ ] Source files are complete.
+- [ ] Development log is complete.
+- [ ] Testing evidence is included.
+- [ ] Evaluation is complete.
+- [ ] A/M/E evidence statement is complete.

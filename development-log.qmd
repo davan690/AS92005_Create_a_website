@@ -1,0 +1,39 @@
+---
+title: "Development Log Template"
+---
+
+Use this page (or a separate document) as evidence of your process.
+
+## Sprint 1 (Weeks 1–2)
+
+- **Goal:**
+- **What I built:**
+- **Problems I hit:**
+- **How I fixed them:**
+
+## Sprint 2 (Weeks 3–4)
+
+- **Goal:**
+- **What I built:**
+- **Feedback received:**
+- **Changes made:**
+
+## Sprint 3 (Weeks 5–6)
+
+- **Goal:**
+- **Environmental data feature added:**
+- **Test results:**
+- **Changes made:**
+
+## Sprint 4 (Weeks 7–8)
+
+- **Goal:**
+- **User/usability testing notes:**
+- **Improvements made:**
+
+## Final (Weeks 9–10)
+
+- **Final checks completed:**
+- **Publishing steps completed:**
+- **How my evidence meets A/M/E:**
+- **What I would improve next:**

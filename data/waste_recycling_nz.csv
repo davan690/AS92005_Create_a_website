@@ -1,0 +1,13 @@
+month,recycling_tonnes,landfill_tonnes,contamination_percent,avg_household_waste_kg
+Jan,420,690,9.2,31.1
+Feb,405,670,9.0,30.4
+Mar,398,655,8.8,29.8
+Apr,384,642,8.5,29.2
+May,372,638,8.4,28.9
+Jun,360,629,8.1,28.3
+Jul,358,624,8.0,28.1
+Aug,366,632,8.2,28.5
+Sep,379,645,8.4,29.0
+Oct,391,658,8.7,29.6
+Nov,407,676,8.9,30.2
+Dec,423,698,9.3,31.3

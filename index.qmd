@@ -1,0 +1,38 @@
+---
+title: "AS92005 Website Exemplar"
+---
+
+## Purpose
+
+This site is a complete example of how a Year 11 student can **pass AS92005** using Quarto and R while still having a clear pathway to **Merit/Excellence**.
+
+The project theme is **environmental data in Aotearoa New Zealand** (air quality, rainfall, and river nitrate trends).
+
+## What this project demonstrates
+
+- A multi-page digital outcome built for a specific purpose and audience.
+- Clear planning and staged development over one school term.
+- Functional website navigation and readable layout.
+- Integration of computational content using R code chunks.
+- Testing, iteration, and reflection evidence.
+
+## Environmental project context
+
+Students investigate a local or national environmental question, for example:
+
+- How does rainfall change across the year?
+- Are PM2.5 air-quality readings higher in some months?
+- Is there a relationship between rainfall and river nitrate concentration?
+
+This exemplar includes a starter dataset in `data/environment_nz.csv`.
+
+## Standard alignment (plain language)
+
+To pass AS92005, students should show that they can:
+
+1. Develop a digital outcome that works for users.
+2. Use planning and development practices to build it.
+3. Test and improve the outcome.
+4. Explain choices and evaluate the final result.
+
+Use this website as a model, then adapt topic and content to suit your own class context.

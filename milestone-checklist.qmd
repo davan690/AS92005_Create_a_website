@@ -1,0 +1,33 @@
+---
+title: "Milestone Checklist"
+---
+
+## Week 2 checkpoint
+
+- [ ] Quarto project runs locally
+- [ ] One rendered page completed
+- [ ] Basic Markdown formatting correct
+
+## Week 4 checkpoint
+
+- [ ] Multi-page structure in place
+- [ ] Navigation works on every page
+- [ ] Theme selected and readable
+
+## Week 6 checkpoint
+
+- [ ] At least one working R output included
+- [ ] Data source or dataset identified
+- [ ] Captured evidence of testing
+
+## Week 8 checkpoint
+
+- [ ] Core content complete
+- [ ] Peer feedback collected
+- [ ] Improvements implemented and documented
+
+## Week 10 submission
+
+- [ ] Final render complete
+- [ ] Site published
+- [ ] Evaluation written and submitted with evidence

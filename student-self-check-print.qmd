@@ -1,0 +1,70 @@
+---
+title: "Student Self-Assessment (Printable)"
+format:
+  html:
+    toc: false
+---
+
+::: {.print-checklist}
+
+This one-page checklist is designed for printing and hand-marking.
+
+Name: ____________________  Class: ____________________  Date: ____________________
+
+## AS92005 Self-Check
+
+### Purpose and audience
+
+- [ ] I can clearly explain my purpose.
+- [ ] I can clearly identify my intended audience.
+- [ ] My pages are designed for that audience.
+
+### Technical quality
+
+- [ ] Navigation works across all pages.
+- [ ] All required pages render correctly.
+- [ ] Layout and readability are consistent.
+
+### Environmental data + R integration
+
+- [ ] I loaded an environmental dataset in R.
+- [ ] I included at least one valid data output (chart/table/value).
+- [ ] I explained my data output in plain language.
+
+### Development process and testing
+
+- [ ] My development log shows progress over time.
+- [ ] I completed testing and documented feedback.
+- [ ] I made improvements based on evidence.
+
+### Evaluation quality
+
+- [ ] I described strengths and limitations.
+- [ ] I justified choices with specific evidence.
+- [ ] I proposed realistic next steps.
+
+## Grade readiness check
+
+### Achieved ready
+
+- [ ] Core functionality complete
+- [ ] Basic process evidence complete
+- [ ] Data requirement met
+
+### Merit ready
+
+- [ ] Multiple improvements from testing
+- [ ] Audience-focused communication mostly effective
+- [ ] Evaluation uses specific evidence
+
+### Excellence ready
+
+- [ ] Outcome is refined and highly fit for purpose
+- [ ] Iteration is systematic and evidence-led
+- [ ] Evaluation is critical and well justified
+
+Teacher comment: ________________________________________________________________
+
+Teacher provisional judgment:  Achieved / Merit / Excellence
+
+:::

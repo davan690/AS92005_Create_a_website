@@ -1,0 +1,38 @@
+---
+title: "Dataset Options"
+---
+
+Students can choose one of two ready-to-use environmental datasets.
+
+## Option A: Air + water + rainfall trends
+
+- File: `data/environment_nz.csv`
+- Variables: month, PM2.5, rainfall, average temperature, river nitrate
+- Good inquiry questions:
+  - Which months have the highest rainfall?
+  - Does river nitrate change with seasonal rainfall?
+  - Are PM2.5 values stable across the year?
+
+## Option B: Waste + recycling trends
+
+- File: `data/waste_recycling_nz.csv`
+- Variables: month, recycling tonnes, landfill tonnes, contamination %, household waste kg
+- Good inquiry questions:
+  - Is landfill tonnage reducing over time?
+  - How does contamination affect recycling quality?
+  - Which months have highest household waste?
+
+## Quick start R code
+
+```{r}
+# Choose one dataset path
+# data_path <- "data/environment_nz.csv"
+data_path <- "data/waste_recycling_nz.csv"
+
+df <- read.csv(data_path)
+head(df)
+```
+
+## Teaching note
+
+Start all students with a common dataset for the first chart, then allow topic differentiation after Week 6.

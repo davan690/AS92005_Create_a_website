@@ -1,0 +1,29 @@
+---
+title: "Teacher Guide"
+---
+
+## Why Quarto is suitable for AS92005
+
+- Supports website outcomes with authentic development workflow.
+- Encourages computational thinking through R integration.
+- Produces clear evidence artifacts (source files, logs, rendered output).
+
+## Suggested assessment conditions
+
+- Individual project, milestone check-ins each fortnight.
+- Controlled class time plus managed homework expectations.
+- Evidence checkpoints: planning, draft build, testing log, final evaluation.
+
+## Scaffolding recommendations
+
+- Provide starter `_quarto.yml` and sample `.qmd` page.
+- Use mini-lessons on common YAML and R errors.
+- Require short stand-up updates each week.
+- Provide the starter dataset in `data/environment_nz.csv` for initial success before students source their own data.
+- Model A/M/E writeups using the `ame-evidence.qmd` page.
+
+## Authenticity checks
+
+- Ask students to explain one code chunk live.
+- Track iterative commits or dated development notes.
+- Compare early wireframe/plan to final output.

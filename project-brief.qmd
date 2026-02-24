@@ -1,0 +1,40 @@
+---
+title: "Assessment Project Brief (Student-Facing)"
+---
+
+## Project goal
+
+Design and develop a multi-page website that communicates insights from an **environmental dataset** to a Year 11 audience.
+
+Suggested inquiry focus: seasonal changes in rainfall, PM2.5 air quality, and river nitrate levels.
+
+Alternative focus: waste and recycling trends (landfill tonnage, contamination, and household waste patterns).
+
+## Minimum requirements for Achieved
+
+- At least **4 pages** with clear purpose.
+- Working navigation across all pages.
+- At least **one R code chunk** that loads and analyses environmental data.
+- Clear statement of which starter dataset you chose and why.
+- Evidence of testing and at least one improvement made from feedback.
+- Brief explanation of key design and technical choices.
+
+## Merit / Excellence pathway
+
+To move beyond Achieved, strengthen:
+
+- **Fitness for purpose**: content and layout closely match audience needs.
+- **Development process**: clear iterative improvements based on testing.
+- **Quality of evidence**: specific, justified decisions using data and feedback.
+- **Evaluation depth**: honest discussion of strengths, limitations, and next steps.
+
+## Deliverables
+
+1. Published site URL.
+2. Quarto source files (`.qmd`, `_quarto.yml`, assets).
+3. Testing log and evaluation write-up.
+4. A short A/M/E evidence statement (use the A/M/E Evidence page as a model).
+
+## Suggested timeline
+
+Follow the 10-week plan page in this exemplar and adapt milestones to your class schedule.

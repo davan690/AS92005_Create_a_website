@@ -1,0 +1,30 @@
+---
+title: "Achieved, Merit, Excellence Evidence Examples"
+---
+
+Use this page as a model for writing evidence statements linked to your environmental website project.
+
+## Achieved example evidence
+
+- I created a 5-page Quarto site about local environmental trends.
+- My navigation links work across all pages.
+- I added R code chunks that load a CSV file and produce a chart.
+- I tested links and fixed one broken path to the data file.
+
+## Merit example evidence
+
+- I designed the site for Year 11 students and kept each page short with clear headings.
+- Peer feedback said my first graph was hard to read, so I changed colours, axis labels, and added a plain-English interpretation.
+- I ran weekly checks and improved layout consistency between pages.
+
+## Excellence example evidence
+
+- I justified design choices by linking them to user needs: concise text, high-contrast charts, and direct navigation for quick revision use.
+- I iteratively improved both technical and communication quality after testing, including better data explanations and clearer evidence of trends over time.
+- I evaluated limitations (small dataset, simulated values) and proposed next steps (real council/API data and interactive filtering).
+
+## Sentence starters students can adapt
+
+- **Fitness for purpose:** "I chose ... because my audience needed ..."
+- **Iteration:** "After testing with ..., I changed ... which improved ..."
+- **Evaluation depth:** "A limitation of my outcome is ...; next I would ..."

@@ -1,0 +1,83 @@
+---
+title: "10-Week Unit Plan"
+---
+
+## Target Standard
+
+**AS92005 — Develop a digital technologies outcome (Level 1, Internal, 5 Credits)**
+
+## Phase 1: The Quarto Paradigm (Weeks 1–2)
+
+### Objective
+Understand how Quarto differs from drag-and-drop or raw HTML workflows.
+
+### Topics
+
+- Installing and navigating RStudio or VS Code
+- Markdown basics (headings, lists, emphasis, links)
+- Static site generator concept (source files render to HTML)
+
+### Activity
+Create a one-page `About Me` file and render it to HTML.
+
+## Phase 2: Structuring the Website (Weeks 3–4)
+
+### Objective
+
+Build a multi-page website using configuration files.
+
+### Topics
+
+- Creating a Quarto website project
+- Understanding `_quarto.yml`
+- Building navigation bars and sidebars
+- Applying a Bootswatch theme for styling
+
+### Activity
+
+Create website skeleton with blank pages and working navigation.
+
+## Phase 3: Integrating Data with R (Weeks 5–6)
+
+### Objective
+
+Embed computational content in the website.
+
+### Topics
+
+- R code chunks in `.qmd` files
+- Loading environmental CSV data in R
+- Basic data checks and summary calculations
+- Creating one clear environmental chart
+
+### Activity
+
+Choose either `data/environment_nz.csv` or `data/waste_recycling_nz.csv`, then add at least one working chart with a short interpretation.
+
+## Phase 4: Development and Iteration (Weeks 7–8)
+
+### Objective
+Develop full project content and improve quality.
+
+### Topics
+
+- Building complete page content
+- Functional testing (links, rendering, readability)
+- Peer testing for usability feedback and scientific clarity
+
+### Activity
+Independent development with documented changes and evidence linked to Achieved/Merit/Excellence.
+
+## Phase 5: Deployment and Submission (Weeks 9–10)
+
+### Objective
+Publish and submit complete evidence.
+
+### Topics
+
+- Final render
+- Publish with Quarto Pub or GitHub Pages
+- Brief evaluation against intended outcome
+
+### Activity
+Submit live URL, source files, and testing/evaluation evidence.

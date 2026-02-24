@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "resources/README.md"
+
+website:
+  title: "AS92005 Quarto Exemplar"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: unit-plan.qmd
+        text: 10-Week Plan
+      - href: project-brief.qmd
+        text: Assessment Brief
+      - href: dataset-options.qmd
+        text: Dataset Options
+      - href: data-demo.qmd
+        text: Data Demo
+      - href: ame-evidence.qmd
+        text: A/M/E Evidence
+      - href: student-self-check.qmd
+        text: Self-Check
+      - href: student-self-check-print.qmd
+        text: Printable Check
+      - href: development-log.qmd
+        text: Development Log
+      - href: evaluation.qmd
+        text: Evaluation
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Teacher Resources"
+        contents:
+          - teacher-guide.qmd
+          - teacher-rubric.qmd
+          - milestone-checklist.qmd
+          - resources/README.md
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+
+execute:
+  echo: true
+  warning: false
+  message: false

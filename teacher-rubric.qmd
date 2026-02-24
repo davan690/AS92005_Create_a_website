@@ -1,0 +1,50 @@
+---
+title: "Teacher Rubric Matrix (AS92005)"
+---
+
+This rubric is a practical classroom guide for making consistent judgments against AS92005 using the environmental website context.
+
+## How to use this matrix
+
+- Make a holistic judgment using **all** available evidence.
+- Use this matrix with student source files, the live site, testing log, and evaluation.
+- If evidence sits between levels, record what is missing for the next grade boundary.
+
+## Achievement level indicators
+
+| Evidence area | Achieved | Merit | Excellence |
+|---|---|---|---|
+| Purpose and audience | Outcome has a clear purpose and intended audience. | Outcome is clearly shaped for audience needs with mostly effective communication. | Outcome is refined and highly fit for purpose, with deliberate choices that strongly support audience understanding. |
+| Technical outcome quality | Multi-page Quarto site works; links and core features function. | Site is reliable, consistent, and mostly polished across pages/devices. | Site is robust, coherent, and polished with high usability and presentation quality. |
+| Data integration (R) | Includes at least one valid R-generated output from environmental data. | Uses data outputs effectively to support key points and interpretation. | Uses data outputs strategically, with clear insight and justified interpretation quality. |
+| Development process | Shows planning and basic testing with at least one improvement. | Shows iterative development with multiple improvements from feedback/testing. | Shows purposeful, ongoing iteration with evidence-driven refinements and strong process control. |
+| Evaluation and justification | Describes what was done and some strengths/limitations. | Explains choices and improvements with specific examples. | Critically evaluates decisions, limitations, and next steps with clear justification linked to evidence. |
+
+## Grade boundary guidance
+
+### To confirm Achieved
+
+- Core functionality is complete and usable.
+- Student demonstrates a valid development process and basic reflection.
+- R/data element is present and correctly integrated.
+
+### To confirm Merit
+
+- Improvements are clearly based on testing/feedback.
+- Design and communication decisions are mostly effective for the intended audience.
+- Evaluation is specific and supported by project evidence.
+
+### To confirm Excellence
+
+- Outcome is convincingly fit for purpose and well-refined.
+- Iteration is systematic, well-documented, and evidence-led.
+- Evaluation is critical, justified, and forward-looking.
+
+## Suggested evidence collection checklist
+
+- [ ] Live URL or locally rendered site view
+- [ ] Quarto source files (`.qmd`, `_quarto.yml`, dataset files)
+- [ ] Development log with dated changes
+- [ ] Testing evidence (self + peer)
+- [ ] Final evaluation statement
+- [ ] A/M/E evidence statement

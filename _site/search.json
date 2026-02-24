@@ -1,0 +1,572 @@
+[
+  {
+    "objectID": "unit-plan.html",
+    "href": "unit-plan.html",
+    "title": "10-Week Unit Plan",
+    "section": "",
+    "text": "AS92005 — Develop a digital technologies outcome (Level 1, Internal, 5 Credits)"
+  },
+  {
+    "objectID": "unit-plan.html#target-standard",
+    "href": "unit-plan.html#target-standard",
+    "title": "10-Week Unit Plan",
+    "section": "",
+    "text": "AS92005 — Develop a digital technologies outcome (Level 1, Internal, 5 Credits)"
+  },
+  {
+    "objectID": "unit-plan.html#phase-1-the-quarto-paradigm-weeks-12",
+    "href": "unit-plan.html#phase-1-the-quarto-paradigm-weeks-12",
+    "title": "10-Week Unit Plan",
+    "section": "Phase 1: The Quarto Paradigm (Weeks 1–2)",
+    "text": "Phase 1: The Quarto Paradigm (Weeks 1–2)\n\nObjective\nUnderstand how Quarto differs from drag-and-drop or raw HTML workflows.\n\n\nTopics\n\nInstalling and navigating RStudio or VS Code\nMarkdown basics (headings, lists, emphasis, links)\nStatic site generator concept (source files render to HTML)\n\n\n\nActivity\nCreate a one-page About Me file and render it to HTML."
+  },
+  {
+    "objectID": "unit-plan.html#phase-2-structuring-the-website-weeks-34",
+    "href": "unit-plan.html#phase-2-structuring-the-website-weeks-34",
+    "title": "10-Week Unit Plan",
+    "section": "Phase 2: Structuring the Website (Weeks 3–4)",
+    "text": "Phase 2: Structuring the Website (Weeks 3–4)\n\nObjective\nBuild a multi-page website using configuration files.\n\n\nTopics\n\nCreating a Quarto website project\nUnderstanding _quarto.yml\nBuilding navigation bars and sidebars\nApplying a Bootswatch theme for styling\n\n\n\nActivity\nCreate website skeleton with blank pages and working navigation."
+  },
+  {
+    "objectID": "unit-plan.html#phase-3-integrating-data-with-r-weeks-56",
+    "href": "unit-plan.html#phase-3-integrating-data-with-r-weeks-56",
+    "title": "10-Week Unit Plan",
+    "section": "Phase 3: Integrating Data with R (Weeks 5–6)",
+    "text": "Phase 3: Integrating Data with R (Weeks 5–6)\n\nObjective\nEmbed computational content in the website.\n\n\nTopics\n\nR code chunks in .qmd files\nLoading environmental CSV data in R\nBasic data checks and summary calculations\nCreating one clear environmental chart\n\n\n\nActivity\nChoose either data/environment_nz.csv or data/waste_recycling_nz.csv, then add at least one working chart with a short interpretation."
+  },
+  {
+    "objectID": "unit-plan.html#phase-4-development-and-iteration-weeks-78",
+    "href": "unit-plan.html#phase-4-development-and-iteration-weeks-78",
+    "title": "10-Week Unit Plan",
+    "section": "Phase 4: Development and Iteration (Weeks 7–8)",
+    "text": "Phase 4: Development and Iteration (Weeks 7–8)\n\nObjective\nDevelop full project content and improve quality.\n\n\nTopics\n\nBuilding complete page content\nFunctional testing (links, rendering, readability)\nPeer testing for usability feedback and scientific clarity\n\n\n\nActivity\nIndependent development with documented changes and evidence linked to Achieved/Merit/Excellence."
+  },
+  {
+    "objectID": "unit-plan.html#phase-5-deployment-and-submission-weeks-910",
+    "href": "unit-plan.html#phase-5-deployment-and-submission-weeks-910",
+    "title": "10-Week Unit Plan",
+    "section": "Phase 5: Deployment and Submission (Weeks 9–10)",
+    "text": "Phase 5: Deployment and Submission (Weeks 9–10)\n\nObjective\nPublish and submit complete evidence.\n\n\nTopics\n\nFinal render\nPublish with Quarto Pub or GitHub Pages\nBrief evaluation against intended outcome\n\n\n\nActivity\nSubmit live URL, source files, and testing/evaluation evidence."
+  },
+  {
+    "objectID": "teacher-guide.html",
+    "href": "teacher-guide.html",
+    "title": "Teacher Guide",
+    "section": "",
+    "text": "Supports website outcomes with authentic development workflow.\nEncourages computational thinking through R integration.\nProduces clear evidence artifacts (source files, logs, rendered output).",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Guide"
+    ]
+  },
+  {
+    "objectID": "teacher-guide.html#why-quarto-is-suitable-for-as92005",
+    "href": "teacher-guide.html#why-quarto-is-suitable-for-as92005",
+    "title": "Teacher Guide",
+    "section": "",
+    "text": "Supports website outcomes with authentic development workflow.\nEncourages computational thinking through R integration.\nProduces clear evidence artifacts (source files, logs, rendered output).",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Guide"
+    ]
+  },
+  {
+    "objectID": "teacher-guide.html#suggested-assessment-conditions",
+    "href": "teacher-guide.html#suggested-assessment-conditions",
+    "title": "Teacher Guide",
+    "section": "Suggested assessment conditions",
+    "text": "Suggested assessment conditions\n\nIndividual project, milestone check-ins each fortnight.\nControlled class time plus managed homework expectations.\nEvidence checkpoints: planning, draft build, testing log, final evaluation.",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Guide"
+    ]
+  },
+  {
+    "objectID": "teacher-guide.html#scaffolding-recommendations",
+    "href": "teacher-guide.html#scaffolding-recommendations",
+    "title": "Teacher Guide",
+    "section": "Scaffolding recommendations",
+    "text": "Scaffolding recommendations\n\nProvide starter _quarto.yml and sample .qmd page.\nUse mini-lessons on common YAML and R errors.\nRequire short stand-up updates each week.\nProvide the starter dataset in data/environment_nz.csv for initial success before students source their own data.\nModel A/M/E writeups using the ame-evidence.qmd page.",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Guide"
+    ]
+  },
+  {
+    "objectID": "teacher-guide.html#authenticity-checks",
+    "href": "teacher-guide.html#authenticity-checks",
+    "title": "Teacher Guide",
+    "section": "Authenticity checks",
+    "text": "Authenticity checks\n\nAsk students to explain one code chunk live.\nTrack iterative commits or dated development notes.\nCompare early wireframe/plan to final output.",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Guide"
+    ]
+  },
+  {
+    "objectID": "project-brief.html",
+    "href": "project-brief.html",
+    "title": "Assessment Project Brief (Student-Facing)",
+    "section": "",
+    "text": "Design and develop a multi-page website that communicates insights from an environmental dataset to a Year 11 audience.\nSuggested inquiry focus: seasonal changes in rainfall, PM2.5 air quality, and river nitrate levels.\nAlternative focus: waste and recycling trends (landfill tonnage, contamination, and household waste patterns)."
+  },
+  {
+    "objectID": "project-brief.html#project-goal",
+    "href": "project-brief.html#project-goal",
+    "title": "Assessment Project Brief (Student-Facing)",
+    "section": "",
+    "text": "Design and develop a multi-page website that communicates insights from an environmental dataset to a Year 11 audience.\nSuggested inquiry focus: seasonal changes in rainfall, PM2.5 air quality, and river nitrate levels.\nAlternative focus: waste and recycling trends (landfill tonnage, contamination, and household waste patterns)."
+  },
+  {
+    "objectID": "project-brief.html#minimum-requirements-for-achieved",
+    "href": "project-brief.html#minimum-requirements-for-achieved",
+    "title": "Assessment Project Brief (Student-Facing)",
+    "section": "Minimum requirements for Achieved",
+    "text": "Minimum requirements for Achieved\n\nAt least 4 pages with clear purpose.\nWorking navigation across all pages.\nAt least one R code chunk that loads and analyses environmental data.\nClear statement of which starter dataset you chose and why.\nEvidence of testing and at least one improvement made from feedback.\nBrief explanation of key design and technical choices."
+  },
+  {
+    "objectID": "project-brief.html#merit-excellence-pathway",
+    "href": "project-brief.html#merit-excellence-pathway",
+    "title": "Assessment Project Brief (Student-Facing)",
+    "section": "Merit / Excellence pathway",
+    "text": "Merit / Excellence pathway\nTo move beyond Achieved, strengthen:\n\nFitness for purpose: content and layout closely match audience needs.\nDevelopment process: clear iterative improvements based on testing.\nQuality of evidence: specific, justified decisions using data and feedback.\nEvaluation depth: honest discussion of strengths, limitations, and next steps."
+  },
+  {
+    "objectID": "project-brief.html#deliverables",
+    "href": "project-brief.html#deliverables",
+    "title": "Assessment Project Brief (Student-Facing)",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nPublished site URL.\nQuarto source files (.qmd, _quarto.yml, assets).\nTesting log and evaluation write-up.\nA short A/M/E evidence statement (use the A/M/E Evidence page as a model)."
+  },
+  {
+    "objectID": "project-brief.html#suggested-timeline",
+    "href": "project-brief.html#suggested-timeline",
+    "title": "Assessment Project Brief (Student-Facing)",
+    "section": "Suggested timeline",
+    "text": "Suggested timeline\nFollow the 10-week plan page in this exemplar and adapt milestones to your class schedule."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AS92005 Website Exemplar",
+    "section": "",
+    "text": "This site is a complete example of how a Year 11 student can pass AS92005 using Quarto and R while still having a clear pathway to Merit/Excellence.\nThe project theme is environmental data in Aotearoa New Zealand (air quality, rainfall, and river nitrate trends)."
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "AS92005 Website Exemplar",
+    "section": "",
+    "text": "This site is a complete example of how a Year 11 student can pass AS92005 using Quarto and R while still having a clear pathway to Merit/Excellence.\nThe project theme is environmental data in Aotearoa New Zealand (air quality, rainfall, and river nitrate trends)."
+  },
+  {
+    "objectID": "index.html#what-this-project-demonstrates",
+    "href": "index.html#what-this-project-demonstrates",
+    "title": "AS92005 Website Exemplar",
+    "section": "What this project demonstrates",
+    "text": "What this project demonstrates\n\nA multi-page digital outcome built for a specific purpose and audience.\nClear planning and staged development over one school term.\nFunctional website navigation and readable layout.\nIntegration of computational content using R code chunks.\nTesting, iteration, and reflection evidence."
+  },
+  {
+    "objectID": "index.html#environmental-project-context",
+    "href": "index.html#environmental-project-context",
+    "title": "AS92005 Website Exemplar",
+    "section": "Environmental project context",
+    "text": "Environmental project context\nStudents investigate a local or national environmental question, for example:\n\nHow does rainfall change across the year?\nAre PM2.5 air-quality readings higher in some months?\nIs there a relationship between rainfall and river nitrate concentration?\n\nThis exemplar includes a starter dataset in data/environment_nz.csv."
+  },
+  {
+    "objectID": "index.html#standard-alignment-plain-language",
+    "href": "index.html#standard-alignment-plain-language",
+    "title": "AS92005 Website Exemplar",
+    "section": "Standard alignment (plain language)",
+    "text": "Standard alignment (plain language)\nTo pass AS92005, students should show that they can:\n\nDevelop a digital outcome that works for users.\nUse planning and development practices to build it.\nTest and improve the outcome.\nExplain choices and evaluate the final result.\n\nUse this website as a model, then adapt topic and content to suit your own class context."
+  },
+  {
+    "objectID": "development-log.html",
+    "href": "development-log.html",
+    "title": "Development Log Template",
+    "section": "",
+    "text": "Use this page (or a separate document) as evidence of your process."
+  },
+  {
+    "objectID": "development-log.html#sprint-1-weeks-12",
+    "href": "development-log.html#sprint-1-weeks-12",
+    "title": "Development Log Template",
+    "section": "Sprint 1 (Weeks 1–2)",
+    "text": "Sprint 1 (Weeks 1–2)\n\nGoal:\nWhat I built:\nProblems I hit:\nHow I fixed them:"
+  },
+  {
+    "objectID": "development-log.html#sprint-2-weeks-34",
+    "href": "development-log.html#sprint-2-weeks-34",
+    "title": "Development Log Template",
+    "section": "Sprint 2 (Weeks 3–4)",
+    "text": "Sprint 2 (Weeks 3–4)\n\nGoal:\nWhat I built:\nFeedback received:\nChanges made:"
+  },
+  {
+    "objectID": "development-log.html#sprint-3-weeks-56",
+    "href": "development-log.html#sprint-3-weeks-56",
+    "title": "Development Log Template",
+    "section": "Sprint 3 (Weeks 5–6)",
+    "text": "Sprint 3 (Weeks 5–6)\n\nGoal:\nEnvironmental data feature added:\nTest results:\nChanges made:"
+  },
+  {
+    "objectID": "development-log.html#sprint-4-weeks-78",
+    "href": "development-log.html#sprint-4-weeks-78",
+    "title": "Development Log Template",
+    "section": "Sprint 4 (Weeks 7–8)",
+    "text": "Sprint 4 (Weeks 7–8)\n\nGoal:\nUser/usability testing notes:\nImprovements made:"
+  },
+  {
+    "objectID": "development-log.html#final-weeks-910",
+    "href": "development-log.html#final-weeks-910",
+    "title": "Development Log Template",
+    "section": "Final (Weeks 9–10)",
+    "text": "Final (Weeks 9–10)\n\nFinal checks completed:\nPublishing steps completed:\nHow my evidence meets A/M/E:\nWhat I would improve next:"
+  },
+  {
+    "objectID": "data-demo.html",
+    "href": "data-demo.html",
+    "title": "Environmental Data Demo (R Integration)",
+    "section": "",
+    "text": "This page demonstrates the computational requirement of using R code within a Quarto website, using a starter environmental dataset."
+  },
+  {
+    "objectID": "data-demo.html#step-1-load-the-dataset",
+    "href": "data-demo.html#step-1-load-the-dataset",
+    "title": "Environmental Data Demo (R Integration)",
+    "section": "Step 1: Load the dataset",
+    "text": "Step 1: Load the dataset\n\nenv &lt;- read.csv(\"data/environment_nz.csv\")\nhead(env)"
+  },
+  {
+    "objectID": "data-demo.html#step-2-quick-summary-values",
+    "href": "data-demo.html#step-2-quick-summary-values",
+    "title": "Environmental Data Demo (R Integration)",
+    "section": "Step 2: Quick summary values",
+    "text": "Step 2: Quick summary values\n\navg_pm25 &lt;- mean(env$pm25)\ntotal_rainfall &lt;- sum(env$rainfall_mm)\navg_nitrate &lt;- mean(env$river_nitrate_mgL)\n\ndata.frame(\n  metric = c(\"Average PM2.5\", \"Total Rainfall (mm)\", \"Average River Nitrate (mg/L)\"),\n  value = c(round(avg_pm25, 2), round(total_rainfall, 1), round(avg_nitrate, 2))\n)"
+  },
+  {
+    "objectID": "data-demo.html#step-3-rainfall-by-month-bar-chart",
+    "href": "data-demo.html#step-3-rainfall-by-month-bar-chart",
+    "title": "Environmental Data Demo (R Integration)",
+    "section": "Step 3: Rainfall by month (bar chart)",
+    "text": "Step 3: Rainfall by month (bar chart)\n\nbarplot(\n  env$rainfall_mm,\n  names.arg = env$month,\n  main = \"Monthly Rainfall\",\n  xlab = \"Month\",\n  ylab = \"Rainfall (mm)\",\n  las = 2\n)"
+  },
+  {
+    "objectID": "data-demo.html#step-4-pm2.5-and-river-nitrate-trend",
+    "href": "data-demo.html#step-4-pm2.5-and-river-nitrate-trend",
+    "title": "Environmental Data Demo (R Integration)",
+    "section": "Step 4: PM2.5 and river nitrate trend",
+    "text": "Step 4: PM2.5 and river nitrate trend\n\nplot(\n  env$month,\n  env$pm25,\n  type = \"o\",\n  col = \"steelblue\",\n  ylim = c(min(c(env$pm25, env$river_nitrate_mgL)), max(c(env$pm25, env$river_nitrate_mgL))),\n  xlab = \"Month\",\n  ylab = \"Value\",\n  main = \"PM2.5 and River Nitrate Across the Year\"\n)\nlines(env$month, env$river_nitrate_mgL, type = \"o\", col = \"darkgreen\")\nlegend(\"topright\", legend = c(\"PM2.5\", \"River Nitrate\"), col = c(\"steelblue\", \"darkgreen\"), lty = 1)"
+  },
+  {
+    "objectID": "data-demo.html#interpretation-prompt",
+    "href": "data-demo.html#interpretation-prompt",
+    "title": "Environmental Data Demo (R Integration)",
+    "section": "Interpretation prompt",
+    "text": "Interpretation prompt\nWrite 2–3 sentences under each graph explaining:\n\nwhat pattern the graph shows,\none possible reason for the trend,\none limitation of the dataset."
+  },
+  {
+    "objectID": "data-demo.html#option-b-demo-waste-and-recycling-dataset",
+    "href": "data-demo.html#option-b-demo-waste-and-recycling-dataset",
+    "title": "Environmental Data Demo (R Integration)",
+    "section": "Option B demo: Waste and recycling dataset",
+    "text": "Option B demo: Waste and recycling dataset\n\nwaste &lt;- read.csv(\"data/waste_recycling_nz.csv\")\nhead(waste)\n\n\nplot(\n  waste$month,\n  waste$landfill_tonnes,\n  type = \"o\",\n  col = \"firebrick\",\n  ylim = c(min(c(waste$landfill_tonnes, waste$recycling_tonnes)), max(c(waste$landfill_tonnes, waste$recycling_tonnes))),\n  xlab = \"Month\",\n  ylab = \"Tonnes\",\n  main = \"Landfill vs Recycling Across the Year\"\n)\nlines(waste$month, waste$recycling_tonnes, type = \"o\", col = \"darkcyan\")\nlegend(\"topright\", legend = c(\"Landfill\", \"Recycling\"), col = c(\"firebrick\", \"darkcyan\"), lty = 1)"
+  },
+  {
+    "objectID": "ame-evidence.html",
+    "href": "ame-evidence.html",
+    "title": "Achieved, Merit, Excellence Evidence Examples",
+    "section": "",
+    "text": "Use this page as a model for writing evidence statements linked to your environmental website project."
+  },
+  {
+    "objectID": "ame-evidence.html#achieved-example-evidence",
+    "href": "ame-evidence.html#achieved-example-evidence",
+    "title": "Achieved, Merit, Excellence Evidence Examples",
+    "section": "Achieved example evidence",
+    "text": "Achieved example evidence\n\nI created a 5-page Quarto site about local environmental trends.\nMy navigation links work across all pages.\nI added R code chunks that load a CSV file and produce a chart.\nI tested links and fixed one broken path to the data file."
+  },
+  {
+    "objectID": "ame-evidence.html#merit-example-evidence",
+    "href": "ame-evidence.html#merit-example-evidence",
+    "title": "Achieved, Merit, Excellence Evidence Examples",
+    "section": "Merit example evidence",
+    "text": "Merit example evidence\n\nI designed the site for Year 11 students and kept each page short with clear headings.\nPeer feedback said my first graph was hard to read, so I changed colours, axis labels, and added a plain-English interpretation.\nI ran weekly checks and improved layout consistency between pages."
+  },
+  {
+    "objectID": "ame-evidence.html#excellence-example-evidence",
+    "href": "ame-evidence.html#excellence-example-evidence",
+    "title": "Achieved, Merit, Excellence Evidence Examples",
+    "section": "Excellence example evidence",
+    "text": "Excellence example evidence\n\nI justified design choices by linking them to user needs: concise text, high-contrast charts, and direct navigation for quick revision use.\nI iteratively improved both technical and communication quality after testing, including better data explanations and clearer evidence of trends over time.\nI evaluated limitations (small dataset, simulated values) and proposed next steps (real council/API data and interactive filtering)."
+  },
+  {
+    "objectID": "ame-evidence.html#sentence-starters-students-can-adapt",
+    "href": "ame-evidence.html#sentence-starters-students-can-adapt",
+    "title": "Achieved, Merit, Excellence Evidence Examples",
+    "section": "Sentence starters students can adapt",
+    "text": "Sentence starters students can adapt\n\nFitness for purpose: “I chose … because my audience needed …”\nIteration: “After testing with …, I changed … which improved …”\nEvaluation depth: “A limitation of my outcome is …; next I would …”"
+  },
+  {
+    "objectID": "dataset-options.html",
+    "href": "dataset-options.html",
+    "title": "Dataset Options",
+    "section": "",
+    "text": "Students can choose one of two ready-to-use environmental datasets."
+  },
+  {
+    "objectID": "dataset-options.html#option-a-air-water-rainfall-trends",
+    "href": "dataset-options.html#option-a-air-water-rainfall-trends",
+    "title": "Dataset Options",
+    "section": "Option A: Air + water + rainfall trends",
+    "text": "Option A: Air + water + rainfall trends\n\nFile: data/environment_nz.csv\nVariables: month, PM2.5, rainfall, average temperature, river nitrate\nGood inquiry questions:\n\nWhich months have the highest rainfall?\nDoes river nitrate change with seasonal rainfall?\nAre PM2.5 values stable across the year?"
+  },
+  {
+    "objectID": "dataset-options.html#option-b-waste-recycling-trends",
+    "href": "dataset-options.html#option-b-waste-recycling-trends",
+    "title": "Dataset Options",
+    "section": "Option B: Waste + recycling trends",
+    "text": "Option B: Waste + recycling trends\n\nFile: data/waste_recycling_nz.csv\nVariables: month, recycling tonnes, landfill tonnes, contamination %, household waste kg\nGood inquiry questions:\n\nIs landfill tonnage reducing over time?\nHow does contamination affect recycling quality?\nWhich months have highest household waste?"
+  },
+  {
+    "objectID": "dataset-options.html#quick-start-r-code",
+    "href": "dataset-options.html#quick-start-r-code",
+    "title": "Dataset Options",
+    "section": "Quick start R code",
+    "text": "Quick start R code\n\n# Choose one dataset path\n# data_path &lt;- \"data/environment_nz.csv\"\ndata_path &lt;- \"data/waste_recycling_nz.csv\"\n\ndf &lt;- read.csv(data_path)\nhead(df)"
+  },
+  {
+    "objectID": "dataset-options.html#teaching-note",
+    "href": "dataset-options.html#teaching-note",
+    "title": "Dataset Options",
+    "section": "Teaching note",
+    "text": "Teaching note\nStart all students with a common dataset for the first chart, then allow topic differentiation after Week 6."
+  },
+  {
+    "objectID": "evaluation.html",
+    "href": "evaluation.html",
+    "title": "Evaluation Guide",
+    "section": "",
+    "text": "Address these prompts:\n\nWho is the intended audience?\nHow does the website meet their needs?\nWhich design choices were most effective?\nWhich features did not work as well as expected?"
+  },
+  {
+    "objectID": "evaluation.html#evaluate-against-fitness-for-purpose",
+    "href": "evaluation.html#evaluate-against-fitness-for-purpose",
+    "title": "Evaluation Guide",
+    "section": "",
+    "text": "Address these prompts:\n\nWho is the intended audience?\nHow does the website meet their needs?\nWhich design choices were most effective?\nWhich features did not work as well as expected?"
+  },
+  {
+    "objectID": "evaluation.html#evaluate-your-development-process",
+    "href": "evaluation.html#evaluate-your-development-process",
+    "title": "Evaluation Guide",
+    "section": "Evaluate your development process",
+    "text": "Evaluate your development process\n\nWhat testing methods did you use? (self-test, peer test, checklist)\nWhat specific feedback changed your outcome?\nWhat evidence shows iteration over time?"
+  },
+  {
+    "objectID": "evaluation.html#example-reflective-paragraph-starter",
+    "href": "evaluation.html#example-reflective-paragraph-starter",
+    "title": "Evaluation Guide",
+    "section": "Example reflective paragraph starter",
+    "text": "Example reflective paragraph starter\n\nMy website was designed for Year 11 students learning about environmental trends. I used a simple navigation layout and short sections so users could quickly compare rainfall, PM2.5, and river nitrate results. Peer testing showed my first graph labels were unclear, so I updated axis titles, improved contrast, and added short interpretations under each graph. This improved usability because users could understand the data patterns without teacher help."
+  },
+  {
+    "objectID": "evaluation.html#ame-evidence-reminder",
+    "href": "evaluation.html#ame-evidence-reminder",
+    "title": "Evaluation Guide",
+    "section": "A/M/E evidence reminder",
+    "text": "A/M/E evidence reminder\nUse the A/M/E Evidence page to model how you write your final evidence statements."
+  },
+  {
+    "objectID": "milestone-checklist.html",
+    "href": "milestone-checklist.html",
+    "title": "Milestone Checklist",
+    "section": "",
+    "text": "Quarto project runs locally\nOne rendered page completed\nBasic Markdown formatting correct",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Milestone Checklist"
+    ]
+  },
+  {
+    "objectID": "milestone-checklist.html#week-2-checkpoint",
+    "href": "milestone-checklist.html#week-2-checkpoint",
+    "title": "Milestone Checklist",
+    "section": "",
+    "text": "Quarto project runs locally\nOne rendered page completed\nBasic Markdown formatting correct",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Milestone Checklist"
+    ]
+  },
+  {
+    "objectID": "milestone-checklist.html#week-4-checkpoint",
+    "href": "milestone-checklist.html#week-4-checkpoint",
+    "title": "Milestone Checklist",
+    "section": "Week 4 checkpoint",
+    "text": "Week 4 checkpoint\n\nMulti-page structure in place\nNavigation works on every page\nTheme selected and readable",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Milestone Checklist"
+    ]
+  },
+  {
+    "objectID": "milestone-checklist.html#week-6-checkpoint",
+    "href": "milestone-checklist.html#week-6-checkpoint",
+    "title": "Milestone Checklist",
+    "section": "Week 6 checkpoint",
+    "text": "Week 6 checkpoint\n\nAt least one working R output included\nData source or dataset identified\nCaptured evidence of testing",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Milestone Checklist"
+    ]
+  },
+  {
+    "objectID": "milestone-checklist.html#week-8-checkpoint",
+    "href": "milestone-checklist.html#week-8-checkpoint",
+    "title": "Milestone Checklist",
+    "section": "Week 8 checkpoint",
+    "text": "Week 8 checkpoint\n\nCore content complete\nPeer feedback collected\nImprovements implemented and documented",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Milestone Checklist"
+    ]
+  },
+  {
+    "objectID": "milestone-checklist.html#week-10-submission",
+    "href": "milestone-checklist.html#week-10-submission",
+    "title": "Milestone Checklist",
+    "section": "Week 10 submission",
+    "text": "Week 10 submission\n\nFinal render complete\nSite published\nEvaluation written and submitted with evidence",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Milestone Checklist"
+    ]
+  },
+  {
+    "objectID": "student-self-check.html",
+    "href": "student-self-check.html",
+    "title": "Student Self-Assessment Checklist",
+    "section": "",
+    "text": "Use this page before final submission to check your work against Achieved, Merit, and Excellence expectations."
+  },
+  {
+    "objectID": "student-self-check.html#how-to-use",
+    "href": "student-self-check.html#how-to-use",
+    "title": "Student Self-Assessment Checklist",
+    "section": "How to use",
+    "text": "How to use\n\nTick the statements you can prove with evidence.\nIf you cannot prove it, improve your site or documentation.\nUse this together with your development log, testing notes, and evaluation."
+  },
+  {
+    "objectID": "student-self-check.html#purpose-and-audience",
+    "href": "student-self-check.html#purpose-and-audience",
+    "title": "Student Self-Assessment Checklist",
+    "section": "1) Purpose and audience",
+    "text": "1) Purpose and audience\n\nAchieved\n\nMy website has a clear purpose.\nI can name my intended audience.\nMy pages match the topic and purpose.\n\n\n\nMerit\n\nMy content and layout are clearly designed for my audience.\nMy headings, labels, and explanations help users understand quickly.\n\n\n\nExcellence\n\nI can justify specific design decisions using audience needs.\nMy site communication is refined and consistently effective."
+  },
+  {
+    "objectID": "student-self-check.html#technical-quality",
+    "href": "student-self-check.html#technical-quality",
+    "title": "Student Self-Assessment Checklist",
+    "section": "2) Technical quality",
+    "text": "2) Technical quality\n\nAchieved\n\nMy navigation works across all pages.\nAll required pages render correctly.\nMy site has no major broken elements.\n\n\n\nMerit\n\nMy site is consistent across pages (layout, style, readability).\nMy charts/tables are clear and labelled well.\n\n\n\nExcellence\n\nMy site is polished and robust, with strong usability throughout."
+  },
+  {
+    "objectID": "student-self-check.html#environmental-data-and-r-integration",
+    "href": "student-self-check.html#environmental-data-and-r-integration",
+    "title": "Student Self-Assessment Checklist",
+    "section": "3) Environmental data and R integration",
+    "text": "3) Environmental data and R integration\n\nAchieved\n\nI loaded an environmental dataset in R.\nI produced at least one valid chart/table/value in my Quarto site.\n\n\n\nMerit\n\nMy data output supports the key points I am making.\nI explain what the chart/table shows in plain language.\n\n\n\nExcellence\n\nI use data strategically to communicate clear insights.\nI justify why my data presentation choices are effective."
+  },
+  {
+    "objectID": "student-self-check.html#development-process-and-testing",
+    "href": "student-self-check.html#development-process-and-testing",
+    "title": "Student Self-Assessment Checklist",
+    "section": "4) Development process and testing",
+    "text": "4) Development process and testing\n\nAchieved\n\nI documented my process over time.\nI tested my site and made at least one improvement.\n\n\n\nMerit\n\nI used peer or user feedback to make multiple improvements.\nI can show before/after evidence for key changes.\n\n\n\nExcellence\n\nMy iteration is systematic and evidence-led.\nI can explain why each major change improved fitness for purpose."
+  },
+  {
+    "objectID": "student-self-check.html#evaluation-quality",
+    "href": "student-self-check.html#evaluation-quality",
+    "title": "Student Self-Assessment Checklist",
+    "section": "5) Evaluation quality",
+    "text": "5) Evaluation quality\n\nAchieved\n\nI describe strengths and limitations of my final outcome.\n\n\n\nMerit\n\nI explain my choices with specific evidence from testing and data work.\n\n\n\nExcellence\n\nI critically evaluate limitations and propose realistic, high-value next steps."
+  },
+  {
+    "objectID": "student-self-check.html#final-pre-submission-check",
+    "href": "student-self-check.html#final-pre-submission-check",
+    "title": "Student Self-Assessment Checklist",
+    "section": "Final pre-submission check",
+    "text": "Final pre-submission check\n\nLive site link works.\nSource files are complete.\nDevelopment log is complete.\nTesting evidence is included.\nEvaluation is complete.\nA/M/E evidence statement is complete."
+  },
+  {
+    "objectID": "teacher-rubric.html",
+    "href": "teacher-rubric.html",
+    "title": "Teacher Rubric Matrix (AS92005)",
+    "section": "",
+    "text": "This rubric is a practical classroom guide for making consistent judgments against AS92005 using the environmental website context.",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Rubric Matrix (AS92005)"
+    ]
+  },
+  {
+    "objectID": "teacher-rubric.html#how-to-use-this-matrix",
+    "href": "teacher-rubric.html#how-to-use-this-matrix",
+    "title": "Teacher Rubric Matrix (AS92005)",
+    "section": "How to use this matrix",
+    "text": "How to use this matrix\n\nMake a holistic judgment using all available evidence.\nUse this matrix with student source files, the live site, testing log, and evaluation.\nIf evidence sits between levels, record what is missing for the next grade boundary.",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Rubric Matrix (AS92005)"
+    ]
+  },
+  {
+    "objectID": "teacher-rubric.html#achievement-level-indicators",
+    "href": "teacher-rubric.html#achievement-level-indicators",
+    "title": "Teacher Rubric Matrix (AS92005)",
+    "section": "Achievement level indicators",
+    "text": "Achievement level indicators\n\n\n\n\n\n\n\n\n\nEvidence area\nAchieved\nMerit\nExcellence\n\n\n\n\nPurpose and audience\nOutcome has a clear purpose and intended audience.\nOutcome is clearly shaped for audience needs with mostly effective communication.\nOutcome is refined and highly fit for purpose, with deliberate choices that strongly support audience understanding.\n\n\nTechnical outcome quality\nMulti-page Quarto site works; links and core features function.\nSite is reliable, consistent, and mostly polished across pages/devices.\nSite is robust, coherent, and polished with high usability and presentation quality.\n\n\nData integration (R)\nIncludes at least one valid R-generated output from environmental data.\nUses data outputs effectively to support key points and interpretation.\nUses data outputs strategically, with clear insight and justified interpretation quality.\n\n\nDevelopment process\nShows planning and basic testing with at least one improvement.\nShows iterative development with multiple improvements from feedback/testing.\nShows purposeful, ongoing iteration with evidence-driven refinements and strong process control.\n\n\nEvaluation and justification\nDescribes what was done and some strengths/limitations.\nExplains choices and improvements with specific examples.\nCritically evaluates decisions, limitations, and next steps with clear justification linked to evidence.",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Rubric Matrix (AS92005)"
+    ]
+  },
+  {
+    "objectID": "teacher-rubric.html#grade-boundary-guidance",
+    "href": "teacher-rubric.html#grade-boundary-guidance",
+    "title": "Teacher Rubric Matrix (AS92005)",
+    "section": "Grade boundary guidance",
+    "text": "Grade boundary guidance\n\nTo confirm Achieved\n\nCore functionality is complete and usable.\nStudent demonstrates a valid development process and basic reflection.\nR/data element is present and correctly integrated.\n\n\n\nTo confirm Merit\n\nImprovements are clearly based on testing/feedback.\nDesign and communication decisions are mostly effective for the intended audience.\nEvaluation is specific and supported by project evidence.\n\n\n\nTo confirm Excellence\n\nOutcome is convincingly fit for purpose and well-refined.\nIteration is systematic, well-documented, and evidence-led.\nEvaluation is critical, justified, and forward-looking.",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Rubric Matrix (AS92005)"
+    ]
+  },
+  {
+    "objectID": "teacher-rubric.html#suggested-evidence-collection-checklist",
+    "href": "teacher-rubric.html#suggested-evidence-collection-checklist",
+    "title": "Teacher Rubric Matrix (AS92005)",
+    "section": "Suggested evidence collection checklist",
+    "text": "Suggested evidence collection checklist\n\nLive URL or locally rendered site view\nQuarto source files (.qmd, _quarto.yml, dataset files)\nDevelopment log with dated changes\nTesting evidence (self + peer)\nFinal evaluation statement\nA/M/E evidence statement",
+    "crumbs": [
+      "Home",
+      "Teacher Resources",
+      "Teacher Rubric Matrix (AS92005)"
+    ]
+  }
+]

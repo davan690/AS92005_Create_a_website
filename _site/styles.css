@@ -1,0 +1,9 @@
+/* Keep styling minimal and rely on Bootswatch theme choices in _quarto.yml */
+
+.quarto-title-banner {
+  margin-bottom: 1rem;
+}
+
+main.content {
+  max-width: 920px;
+}

@@ -1,0 +1,31 @@
+/* Keep styling minimal and rely on Bootswatch theme choices in _quarto.yml */
+
+.quarto-title-banner {
+  margin-bottom: 1rem;
+}
+
+main.content {
+  max-width: 920px;
+}
+
+.print-checklist .task-list-item input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 0.6rem;
+}
+
+@media print {
+  .print-checklist {
+    font-size: 12pt;
+    line-height: 1.35;
+  }
+
+  .print-checklist h2,
+  .print-checklist h3 {
+    break-after: avoid;
+  }
+
+  .print-checklist .task-list-item {
+    break-inside: avoid;
+    margin-bottom: 0.3rem;
+  }
+}

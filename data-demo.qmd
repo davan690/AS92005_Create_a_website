@@ -1,0 +1,88 @@
+---
+title: "Environmental Data Demo (R Integration)"
+format:
+  html:
+    df-print: paged
+---
+
+This page demonstrates the computational requirement of using R code within a Quarto website, using a starter environmental dataset.
+
+## Step 1: Load the dataset
+
+```{r}
+env <- read.csv("data/environment_nz.csv")
+head(env)
+```
+
+## Step 2: Quick summary values
+
+```{r}
+avg_pm25 <- mean(env$pm25)
+total_rainfall <- sum(env$rainfall_mm)
+avg_nitrate <- mean(env$river_nitrate_mgL)
+
+data.frame(
+  metric = c("Average PM2.5", "Total Rainfall (mm)", "Average River Nitrate (mg/L)"),
+  value = c(round(avg_pm25, 2), round(total_rainfall, 1), round(avg_nitrate, 2))
+)
+```
+
+## Step 3: Rainfall by month (bar chart)
+
+```{r}
+barplot(
+  env$rainfall_mm,
+  names.arg = env$month,
+  main = "Monthly Rainfall",
+  xlab = "Month",
+  ylab = "Rainfall (mm)",
+  las = 2
+)
+```
+
+## Step 4: PM2.5 and river nitrate trend
+
+```{r}
+plot(
+  env$month,
+  env$pm25,
+  type = "o",
+  col = "steelblue",
+  ylim = c(min(c(env$pm25, env$river_nitrate_mgL)), max(c(env$pm25, env$river_nitrate_mgL))),
+  xlab = "Month",
+  ylab = "Value",
+  main = "PM2.5 and River Nitrate Across the Year"
+)
+lines(env$month, env$river_nitrate_mgL, type = "o", col = "darkgreen")
+legend("topright", legend = c("PM2.5", "River Nitrate"), col = c("steelblue", "darkgreen"), lty = 1)
+```
+
+## Interpretation prompt
+
+Write 2–3 sentences under each graph explaining:
+
+- what pattern the graph shows,
+- one possible reason for the trend,
+- one limitation of the dataset.
+
+## Option B demo: Waste and recycling dataset
+
+```{r}
+waste <- read.csv("data/waste_recycling_nz.csv")
+head(waste)
+```
+
+```{r}
+plot(
+  waste$month,
+  waste$landfill_tonnes,
+  type = "o",
+  col = "firebrick",
+  ylim = c(min(c(waste$landfill_tonnes, waste$recycling_tonnes)), max(c(waste$landfill_tonnes, waste$recycling_tonnes))),
+  xlab = "Month",
+  ylab = "Tonnes",
+  main = "Landfill vs Recycling Across the Year"
+)
+lines(waste$month, waste$recycling_tonnes, type = "o", col = "darkcyan")
+legend("topright", legend = c("Landfill", "Recycling"), col = c("firebrick", "darkcyan"), lty = 1)
+```
