@@ -1,0 +1,27 @@
+---
+title: "Lessons"
+---
+
+## 10-Week Lesson Sequence
+
+This section contains day-by-day lesson plans for the full 10-week term (30 lessons).
+
+## Weekly lesson files
+
+| Week | Lessons | Focus | Open Plan |
+|---|---:|---|---|
+| Week 1 | 1–3 | Paradigm shift: HTML to Markdown | [week-01.md](lessons/week-01.md) |
+| Week 2 | 4–6 | Quarto website structure + styling | [week-02.md](lessons/week-02.md) |
+| Week 3 | 7–9 | Intro R chunks + loading/displaying data | [week-03.md](lessons/week-03.md) |
+| Week 4 | 10–12 | Visualisation + mini-project integration | [week-04.md](lessons/week-04.md) |
+| Week 5 | 13–15 | Assessment planning and design | [week-05.md](lessons/week-05.md) |
+| Week 6 | 16–18 | Development Sprint 1 workshops | [week-06.md](lessons/week-06.md) |
+| Week 7 | 19–21 | Development Sprint 2 workshops | [week-07.md](lessons/week-07.md) |
+| Week 8 | 22–24 | Development Sprint 3 workshops | [week-08.md](lessons/week-08.md) |
+| Week 9 | 25–27 | Peer trialling and refinement | [week-09.md](lessons/week-09.md) |
+| Week 10 | 28–30 | Final render, publish, submit | [week-10.md](lessons/week-10.md) |
+
+## Download all lesson planning resources
+
+- [Lesson folder index](lessons/README.md)
+- [Weekly check-in template](resources/templates/weekly-checkin-template.md)

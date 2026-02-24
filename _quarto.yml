@@ -4,6 +4,9 @@ project:
   render:
     - "*.qmd"
     - "resources/README.md"
+  resources:
+    - "lessons/**"
+    - "resources/templates/**"
 
 website:
   title: "AS92005 Quarto Exemplar"
@@ -13,6 +16,8 @@ website:
         text: Home
       - href: unit-plan.qmd
         text: 10-Week Plan
+      - href: lessons.qmd
+        text: Lessons
       - href: project-brief.qmd
         text: Assessment Brief
       - href: dataset-options.qmd
